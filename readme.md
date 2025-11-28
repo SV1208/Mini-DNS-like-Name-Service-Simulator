@@ -11,7 +11,7 @@
 | --- | --- |
 | Shaurya Kumar | 231020446 |
 | Shivanshu Vishwakarma | 231020447 |
-| Shivani Banjare | 231020448 |
+| Shiwani Banjare | 231020448 |
 | Shrey Omer | 231020449 |
 | Shubhang Nande | 231020450 |
 
