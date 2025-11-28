@@ -3,7 +3,7 @@ import threading
 
 # root name database (static)
 root_db = {
-    "google.com": "8.8.8.8",
+    "google.com": "142.250.192.110",
     "youtube.com": "142.250.72.174",
     "openai.com": "104.18.13.135",
 }
