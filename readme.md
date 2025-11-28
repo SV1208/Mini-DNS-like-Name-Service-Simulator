@@ -43,7 +43,7 @@ This simulator mirrors a small slice of DNS behavior: a **root name server** hol
 - No external packages; only built-in `socket`, `time`, `json`, and `threading` modules are used.
 
 ## Run the Demo
-Open three terminals (or background processes) in the repository code directory of the repository and execute the components in order:
+Open three terminals (or background processes) in the code directory of the repository and execute the components in order:
 
 ```bash
 python root_server.py
