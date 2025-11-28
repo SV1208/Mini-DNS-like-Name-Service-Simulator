@@ -1,5 +1,6 @@
 import socket
 import threading
+import time
 
 # root name database (static)
 root_db = {
@@ -10,6 +11,7 @@ root_db = {
 
 HOST = "127.0.0.1"
 PORT = 5300
+SIMULATED_RESPONSE_DELAY = 4  # seconds to mimic real-world root server latency
 
 def handle_client(conn, addr):
     print(f"[Root Server] Connection from {addr}")
@@ -17,6 +19,8 @@ def handle_client(conn, addr):
     print(f"[Root Server] Query received: {data}")
 
     ip = root_db.get(data, "NOT_FOUND")
+    print(f"[Root Server] Simulating {SIMULATED_RESPONSE_DELAY}s lookup latency...")
+    time.sleep(SIMULATED_RESPONSE_DELAY)
     conn.send(ip.encode())
     conn.close()
 

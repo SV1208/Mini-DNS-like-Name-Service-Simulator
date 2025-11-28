@@ -3,7 +3,7 @@ import time
 import threading
 
 CACHE = {}
-TTL = 10   # seconds
+TTL = 25   # seconds
 
 HOST = "127.0.0.1"
 PORT = 5400
