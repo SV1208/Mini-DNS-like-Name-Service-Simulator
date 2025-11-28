@@ -18,6 +18,11 @@
 ## Project Info
 This simulator mirrors a small slice of DNS behavior: a **root name server** holds static domain→IP mappings, a **local resolver** caches responses with TTL enforcement, and a **client** issues human-readable domain queries. The flow lets you demonstrate cache hits/misses and see how real DNS reduces latency with caching.
 
+### What does DNS do?
+![Domain to IP mapping](diagram2.png)
+*DNS maps human-friendly names (e.g., `google.com`) to numeric IP addresses so clients reach the correct servers.*
+
+
 ## Architecture Overview
 ![Architecture diagram](diagram.png)
 
@@ -39,7 +44,8 @@ project-folder/
 ├── client.py          # CLI client issuing DNS-style queries
 ├── resolver.py        # Local resolver with cache + TTL logic
 ├── root_server.py     # Root name server with static mappings
-├── diagram.png        # Architecture diagram (rename provided PNG)
+├── diagram.png        # Architecture overview diagram
+├── diagram2.png       # Simple domain-to-IP mapping illustration
 └── README.md          # You are here
 ```
 
