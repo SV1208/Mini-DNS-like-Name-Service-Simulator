@@ -1,11 +1,19 @@
 # Mini DNS-like Name Service Simulator
 
 ## Group Details
-| Role | Member |
+|  |  |
 | --- | --- |
 | Group Number | 3 |
-| Title | Mini DNS-like Name Service Simulator |
-| Members | Shaurya Kumar — 231020446<br>Shivanshu Vishwakarma — 231020447<br>Shivani Banjare — 231020448<br>Shrey Omer — 231020449<br>Shubhang Nande — 231020450 |
+| Project Title | Mini DNS-like Name Service Simulator |
+
+### Team Members
+| Name | Roll Number |
+| --- | --- |
+| Shaurya Kumar | 231020446 |
+| Shivanshu Vishwakarma | 231020447 |
+| Shivani Banjare | 231020448 |
+| Shrey Omer | 231020449 |
+| Shubhang Nande | 231020450 |
 
 ## Project Info
 This simulator mirrors a small slice of DNS behavior: a **root name server** holds static domain→IP mappings, a **local resolver** caches responses with TTL enforcement, and a **client** issues human-readable domain queries. The flow lets you demonstrate cache hits/misses and see how real DNS reduces latency with caching.
